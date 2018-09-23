@@ -22,6 +22,8 @@
 
     <!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
 
+
+    <!--   Нужно только для прайс карточек-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen" />
 
 
@@ -37,25 +39,26 @@
         <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
             <div class="container">
-                <a class="navbar-brand" href="#"><strong>Design-house</strong></a>
+                <a class="navbar-brand" href="index.html"><strong>Design-house</strong></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">О нас <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#about">О нас </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Услуги и цены</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Наши работы</a>
+                            <a class="nav-link" href="#portfolio">Наши работы</a>
                         </li>
                     </ul>
                     <form class="form-inline">
                         <div class="md-form my-0">
-                            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                            <!--                            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">-->
+                            <span>+(380)-977-677-787</span>
                         </div>
                     </form>
                 </div>
@@ -75,8 +78,8 @@
                             <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>Design House</strong></h1>
                             <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
                             <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s">Студия дизайна, ломающая стереотипы</h5>
-                            <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">Портфолио</a>
-                            <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">О нас</a>
+                            <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s" href="#portfolio">Портфолио</a>
+                            <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s" href="#about">О нас</a>
                         </div>
                         <!--Grid column-->
                     </div>
@@ -98,7 +101,7 @@
     <main>
 
         <!-- Портфолио -->
-        <section class="text-center my-5">
+        <section class="text-center my-5" id="portfolio">
             <!-- <div style="background-image: url('img/big_5665_oboi_temnaja_mjataja_bumaga.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;"> -->
 
 
@@ -123,25 +126,25 @@
                 <div class="row">
 
                     <!-- Grid column -->
-                    <div class="col-lg-4 col-md-12 mb-3">
+                    <div class="col-lg-4 col-md-12 mb-3 view overlay zoom">
 
-                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img(115).jpg" class="img-fluid z-depth-1" alt="Responsive image">
-
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-lg-4 col-md-6 mb-3">
-
-                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img(116).jpg" class="img-fluid z-depth-1" alt="Responsive image">
+                        <img src="img/dmitriy-adamenko-538469-unsplash.jpg" class="img-fluid z-depth-1" alt="Responsive image">
 
                     </div>
                     <!-- Grid column -->
 
                     <!-- Grid column -->
-                    <div class="col-lg-4 col-md-6 mb-3">
+                    <div class="col-lg-4 col-md-6 mb-3 view overlay zoom">
 
-                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img(117).jpg" class="img-fluid z-depth-1" alt="Responsive image">
+                        <img src="img/anna-sullivan-635346-unsplash.jpg" class="img-fluid z-depth-1" alt="Responsive image">
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-lg-4 col-md-6 mb-3 view overlay zoom">
+
+                        <img src="img/anna-sullivan-635350-unsplash.jpg" class="img-fluid z-depth-1" alt="Responsive image">
 
                     </div>
                     <!-- Grid column -->
@@ -153,17 +156,17 @@
                 <div class="row">
 
                     <!-- Grid column -->
-                    <div class="col-md-6 mb-3">
+                    <div class="col-md-6 mb-3 view overlay zoom">
 
-                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/People/6-col/img(117).jpg" class="img-fluid z-depth-1" alt="Responsive image">
+                        <img src="img/daniil-silantev-574962-unsplash.jpg" class="img-fluid z-depth-1" alt="Responsive image">
 
                     </div>
                     <!-- Grid column -->
 
                     <!-- Grid column -->
-                    <div class="col-md-6 mb-3">
+                    <div class="col-md-6 mb-3 view overlay zoom">
 
-                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/People/6-col/img(129).jpg" class="img-fluid z-depth-1" alt="Responsive image">
+                        <img src="img/daniil-silantev-574966-unsplash.jpg" class="img-fluid z-depth-1" alt="Responsive image">
 
                     </div>
                     <!-- Grid column -->
@@ -204,7 +207,7 @@
                     </div>
 
                     <div class="col-md-4 mb-3">
-                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg" class="img-fluid z-depth-3" alt="Responsive image">
+                        <img src="img/stetham.jpg" class="img-fluid z-depth-3" alt="Responsive image">
                     </div>
                 </div>
 
@@ -217,7 +220,7 @@
                     </div>
 
                     <div class="col-md-6 ">
-                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg" class="img-fluid z-depth-3" alt="Responsive image">
+                        <img src="img/elena.jpg" class="img-fluid z-depth-3" alt="Responsive image">
                         <h4 class="font-weight-bold dark-grey-text my-4">Елена Веселова</h4>
                         <h6 class="text-uppercase grey-text mb-3"><strong>Дизайнер</strong></h6>
                     </div>
@@ -227,6 +230,10 @@
             </div>
         </section>
 
+        <div class="container">
+            <hr class="my-5">
+        </div>
+
         <section class="text-center my-5" id="about" style="background-color: #fafafa">
             <div class="container">
                 <h2 class="h2-responsive my-5 text-uppercase font-weight-bold">О нас</h2>
@@ -235,7 +242,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-4"></div>
                     <div class="col-lg-8 col-md-8 mb-3">
-                        <img src="img/f52fda7afd2c74a060736b39a065e498.jpg" class="img-fluid z-depth-1" alt="Responsive image">
+                        <img src="img/daniil-silantev-574958-unsplash-horisintal.jpg" class="img-fluid z-depth-1" alt="Responsive image">
                     </div>
 
 
@@ -246,6 +253,10 @@
                 </div>
             </div>
         </section>
+
+        <div class="container">
+            <hr class="my-5">
+        </div>
 
 
         <!-- Section: Pricing v.1 -->
@@ -268,7 +279,7 @@
 
                             <!-- START PLAN TITLE DIV. -->
                             <!-- CHANGE COLOR BY CHANGING LAST CSS CLASS (teal) AVAILABLE COLOR CLASSES LISTED HERE http://materializecss.com/color.html -->
-                            <div class="plan-title waves-effect waves-block waves-light teal">
+                            <div class="plan-title waves-effect waves-block waves-light elegant-color-dark">
                                 <h5 class="white-text">
                                     <span class="plan">Базовый</span>
                                 </h5>
@@ -276,7 +287,7 @@
                             <!-- END PLAN TITLE DIV. -->
 
                             <!-- START PRICE INFO DIV. -->
-                            <div class="price waves-effect waves-block waves-light teal lighten-1">
+                            <div class="price waves-effect waves-block waves-light elegant-color lighten-1">
                                 <h4 class="white-text">
                                     <span class="currency">$</span>
                                     <span class="amount">35</span>
@@ -349,7 +360,7 @@
 
                                 <!-- START SIGN UP BUTTON -->
                                 <div class="plan-signup-btn">
-                                    <a id="start-now-plus" class="btn-large waves-effect waves-block waves-light no-margin white-text yellow darken-2" href="#"><span class="dark-grey-text">Заказать</span></a>
+                                    <a id="start-now-plus" class="btn-large waves-effect waves-block waves-light no-margin white-text yellow darken-2" href="#order"><span class="dark-grey-text">Заказать</span></a>
                                 </div>
                                 <!-- END SIGN UP BUTTON -->
 
@@ -364,7 +375,7 @@
                         <div class="card pricing style-2">
 
                             <!-- START PLAN TITLE DIV. -->
-                            <div class="plan-title waves-effect waves-block waves-light teal">
+                            <div class="plan-title waves-effect waves-block waves-light elegant-color-dark">
                                 <h5 class="white-text">
                                     <span class="plan">Премирум</span>
                                 </h5>
@@ -372,7 +383,7 @@
                             <!-- END PLAN TITLE DIV. -->
 
                             <!-- START PRICE INFO DIV. -->
-                            <div class="price waves-effect waves-block waves-light teal lighten-1">
+                            <div class="price waves-effect waves-block waves-light elegant-color lighten-1">
                                 <h4 class="white-text">
                                     <span class="currency">$</span>
                                     <span class="amount">199</span>
@@ -399,7 +410,7 @@
 
                                 <!-- START SIGN UP BUTTON -->
                                 <div class="plan-signup-btn">
-                                    <a id="start-now-premium" class="btn waves-effect waves-block waves-light no-margin white-text" href="">Заказать</a>
+                                    <a id="start-now-premium" class="btn waves-effect waves-block waves-light no-margin white-text" href="#order">Заказать</a>
                                 </div>
                                 <!-- END SIGN UP BUTTON -->
 
@@ -413,7 +424,92 @@
 
             </div>
             <!-- END PRICING TABLE CONTAINER -->
+        </section>
 
+        <section my-5 style="background-image: url('img/lamp-side.jpg'); background-repeat: no-repeat; background-size: cover; background-position: bottom center;">
+            <h2 class="h1-responsive font-weight-bold text-center my-5" id="order">Свяжитесь с нами</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7"></div>
+                    <div class="col-md-5">
+                        <div class="card">
+                            <!--Card content-->
+                            <div class="card-body">
+
+                                <!-- Form -->
+                                <form name="">
+                                    <!-- Heading -->
+                                    <h3 class="dark-grey-text text-center">
+                                        <strong>Оставьте номер телефона:</strong>
+                                    </h3>
+                                    <hr>
+
+                                    <div class="md-form">
+                                        <i class="fa fa-user prefix grey-text"></i>
+                                        <input type="text" id="form3" class="form-control">
+                                        <label for="form3">Имя</label>
+                                    </div>
+                                    <div class="md-form">
+                                        <i class="fa fa-phone prefix grey-text"></i>
+                                        <input type="text" id="form2" class="form-control">
+                                        <label for="form2">Телефон</label>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <button class="btn btn-yellow waves-effect waves-light black-text">Отправить</button>
+                                        <hr>
+                                        <fieldset class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="checkbox1">
+                                            <label for="checkbox1" class="form-check-label dark-grey-text">Subscribe me to the newsletter</label>
+                                        </fieldset>
+                                    </div>
+
+                                </form>
+                                <!-- Form -->
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <footer class="page-footer elegant-color-dark text-center font-small mt-400 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+
+            <!--Call to action-->
+            <div class="pt-4">
+                <a class="btn btn-outline-white waves-effect waves-light" href="https://github.com/ProteinR/design-house" target="_blank" role="button">This project on GitHub
+                    <i class="fa fa-download ml-2"></i>
+                </a>
+
+            </div>
+            <!--/.Call to action-->
+
+            <hr class="my-4">
+
+            <!-- Social icons -->
+            <div class="pb-4">
+
+                <a href="https://www.linkedin.com/in/memruk-d/" target="_blank">
+                    <i class="fa fa-linkedin mr-3"></i>
+                </a>
+
+                <a href="https://github.com/ProteinR/design-house" target="_blank">
+                    <i class="fa fa-github mr-3"></i>
+                </a>
+            </div>
+            <!-- Social icons -->
+
+            <!--Copyright-->
+            <div class="footer-copyright py-3">
+                © 2018 Project by:
+                <a href="https://github.com/ProteinR/design-house" target="_blank"> Memruk D.S. </a>
+            </div>
+            <!--/.Copyright-->
+
+        </footer>
 
 
 
