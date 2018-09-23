@@ -15,7 +15,17 @@
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.10/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+
+
+
+    <!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
+
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen" />
+
+
+
     <!-- PRICING CSS -->
     <link type="text/css" rel="stylesheet" href="css/pricing.css" media="screen" />
 
@@ -217,7 +227,7 @@
             </div>
         </section>
 
-        <section class="text-center my-5" style="background-color: #fafafa">
+        <section class="text-center my-5" id="about" style="background-color: #fafafa">
             <div class="container">
                 <h2 class="h2-responsive my-5 text-uppercase font-weight-bold">О нас</h2>
 
@@ -239,7 +249,7 @@
 
 
         <!-- Section: Pricing v.1 -->
-        <section class="my-5">
+        <section class="my-5" id="price">
             <!-- Section heading -->
             <h2 class="h1-responsive font-weight-bold text-center my-5">Наши цены</h2>
 
@@ -281,12 +291,10 @@
                                 <ul class="collection">
 
                                     <!-- USE FOLLOWING LIST ITEM AS EXAMPLE TO ADD TOOLTIP IN FEATURE -->
-                                    <li data-tooltip="План обмерочный" data-delay="10" data-position="top" class="collection-item tooltipped">План демонтажа<i class="mdi-action-info-outline right"></i></li>
-                                    <li class="collection-item">апапр </li>
-                                    <li data-tooltip="On demand increase anytime with extra fee" data-delay="10" data-position="top" class="collection-item tooltipped">План реконструкции <i class="mdi-action-info-outline right"></i></li>
-                                    <li class="collection-item">Схема укладки напольных покрытий</li>
-                                    <li class="collection-item">План расстановки мебели</li>
-                                    <li class="collection-item">Авторский надзор</li>
+                                    <li data-tooltip="С этого документа начинается весь процесс работ" data-delay="10" data-position="top" class="collection-item tooltipped">План демонтажа<i class="mdi-action-info-outline right"></i></li>
+                                    <li class="collection-item">План обмерочный </li>
+                                    <li data-tooltip="Наши специалисты предоставляют несколько вариантов перепланировки помещений" data-delay="10" data-position="top" class="collection-item tooltipped">План реконструкции <i class="mdi-action-info-outline right"></i></li>
+
                                 </ul>
                                 <!-- END FEATURE LIST -->
 
@@ -320,8 +328,8 @@
                             <div class="price waves-effect waves-block waves-light yellow darken-2">
                                 <h4 class="dark-grey-text">
                                     <span class="currency">$</span>
-                                    <span class="amount">99</span>
-                                    <span class="period">/mo</span>
+                                    <span class="amount">75</span>
+                                    <span class="period">м <sup>2</sup></span>
                                 </h4>
                             </div>
                             <!-- END PRICE INFO DIV. -->
@@ -330,18 +338,18 @@
 
                                 <!-- START FEATURE LIST -->
                                 <ul class="collection">
-                                    <li data-tooltip="Dedicated support team available 24/7" data-delay="10" data-position="top" class="collection-item tooltipped"><b>24/7</b> Support <i class="mdi-action-info-outline right"></i></li>
-                                    <li class="collection-item"><b>3TB</b> Bandwidth</li>
-                                    <li data-tooltip="On demand increase anytime with extra fee" data-delay="10" data-position="top" class="collection-item tooltipped"><b>50GB</b> Hosting Space <i class="mdi-action-info-outline right"></i></li>
-                                    <li class="collection-item"><b>8GB</b> Memory</li>
-                                    <li class="collection-item"><b>50</b> Free Domain</li>
-                                    <li class="collection-item">User Analytics</li>
+                                    <li data-tooltip="С этого документа начинается весь процесс работ" data-delay="10" data-position="top" class="collection-item tooltipped">План демонтажа<i class="mdi-action-info-outline right"></i></li>
+                                    <li class="collection-item">План обмерочный </li>
+                                    <li data-tooltip="Наши специалисты предоставляют несколько вариантов перепланировки помещений" data-delay="10" data-position="top" class="collection-item tooltipped">План реконструкции <i class="mdi-action-info-outline right"></i></li>
+                                    <li class="collection-item">Схема укладки напольных покрытий</li>
+                                    <li class="collection-item">План расстановки мебели</li>
+                                    <li class="collection-item">План укладки теплого пола</li>
                                 </ul>
                                 <!-- END FEATURE LIST -->
 
                                 <!-- START SIGN UP BUTTON -->
                                 <div class="plan-signup-btn">
-                                    <a id="start-now-plus" class="btn-large waves-effect waves-block waves-light no-margin white-text yellow darken-2" href="#"><span class="dark-grey-text">Sign Up</span></a>
+                                    <a id="start-now-plus" class="btn-large waves-effect waves-block waves-light no-margin white-text yellow darken-2" href="#"><span class="dark-grey-text">Заказать</span></a>
                                 </div>
                                 <!-- END SIGN UP BUTTON -->
 
@@ -368,7 +376,7 @@
                                 <h4 class="white-text">
                                     <span class="currency">$</span>
                                     <span class="amount">199</span>
-                                    <span class="period">/mo</span>
+                                    <span class="period">м <sup>2</sup></span>
                                 </h4>
                             </div>
                             <!-- END PRICE INFO DIV. -->
@@ -377,18 +385,21 @@
 
                                 <!-- START FEATURE LIST -->
                                 <ul class="collection">
-                                    <li data-tooltip="Dedicated support team available 24/7" data-delay="10" data-position="top" class="collection-item tooltipped"><b>24/7</b> Support<i class="mdi-action-info-outline right"></i></li>
-                                    <li class="collection-item"> <b>5TB</b> Bandwidth</li>
-                                    <li data-tooltip="On demand increase anytime with extra fee" data-delay="10" data-position="top" class="collection-item tooltipped"><b>100GB</b> Hosting Space <i class="mdi-action-info-outline right"></i></li>
-                                    <li class="collection-item"><b>16GB</b> Memory</li>
-                                    <li class="collection-item"><b>100</b> Free Domain</li>
-                                    <li class="collection-item">User Analytics</li>
+                                    <li data-tooltip="С этого документа начинается весь процесс работ" data-delay="10" data-position="top" class="collection-item tooltipped">План демонтажа<i class="mdi-action-info-outline right"></i></li>
+                                    <li class="collection-item">План обмерочный </li>
+                                    <li data-tooltip="Наши специалисты предоставляют несколько вариантов перепланировки помещений" data-delay="10" data-position="top" class="collection-item tooltipped">План реконструкции <i class="mdi-action-info-outline right"></i></li>
+                                    <li class="collection-item">Схема укладки напольных покрытий</li>
+                                    <li class="collection-item">План расстановки мебели</li>
+                                    <li class="collection-item">План укладки теплого пола</li>
+                                    <li class="collection-item">План потолочного декора</li>
+                                    <li class="collection-item">Схема размещения осветительных приборов</li>
+                                    <li class="collection-item">Авторский надзор</li>
                                 </ul>
                                 <!-- END FEATURE LIST -->
 
                                 <!-- START SIGN UP BUTTON -->
                                 <div class="plan-signup-btn">
-                                    <a id="start-now-premium" class="btn waves-effect waves-block waves-light no-margin white-text" href="">Sign Up</a>
+                                    <a id="start-now-premium" class="btn waves-effect waves-block waves-light no-margin white-text" href="">Заказать</a>
                                 </div>
                                 <!-- END SIGN UP BUTTON -->
 
